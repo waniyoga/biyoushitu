@@ -1,0 +1,199 @@
+/* 全体のスタイル */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* ヘッダーとナビゲーション */
+  
+
+  header {
+    background-color: #f95d5d;
+    padding: 20px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #333333;
+  }
+  
+  /* ヒーローセクション */
+  #hero {
+    background-size: cover;
+    color: #30ffac;
+    text-align: center;
+  }
+  
+  #hero h1 {
+    font-size: 48px;
+    font-family: "Yu Mincho", "Hiragino Mincho Pro", Meiryo, serif;
+    margin-bottom: 20px;
+  }
+  
+  #hero p {
+    font-size: 24px;
+    margin-bottom: 40px;
+  }
+  
+  .btn {
+    display: inline-block;
+    background-color: #333333;
+    color: #ffffff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+ /* メニューセクション */
+#menu {
+  background-color: #f5f5f5;
+  padding: 50px;
+  text-align: center;
+}
+
+#menu h2 {
+  font-size: 36px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+#menu ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#menu ul li {
+  width: 300px;
+  margin: 0 20px 40px;
+  text-align: center;
+}
+
+#menu ul li img {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+#menu ul li h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+#menu ul li p {
+  font-size: 16px;
+  margin-bottom: 0;
+}
+
+  
+  /* お知らせセクション */
+  #news {
+    padding: 50px;
+    text-align: center;
+  }
+  
+  #news h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+  }
+  
+  #news ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  #news ul li {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  #news ul li h3 {
+    font-size: 24px;
+  }
+  
+  /* 予約セクション */
+  #reservation {
+    background-color: #f5f5f5;
+    padding: 50px;
+    text-align: center;
+  }
+  
+  #reservation h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  #reservation p {
+    font-size: 18
+    px;
+    margin-bottom: 40px;
+  }
+  
+  .btn {
+    display: inline-block;
+    background-color: #333333;
+    color: #ffffff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  /* アクセスセクション */
+  #access {
+    padding: 50px;
+    text-align: center;
+  }
+  
+  #access h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+  }
+  
+  .google-mapp {
+    height: 400px; /* Google Mapsの埋め込み地図の高さ */
+    margin-bottom: 20px;
+  }
+  
+  /* フッター */
+  footer {
+    background-color: #333333;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  footer p {
+    margin: 0;
+  }
+  
+  /* レスポンシブデザイン */
+  @media screen and (max-width: 768px) {
+    #menu ul li {
+      display: block;
+      width: 100%;
+      margin-right: 0;
+      margin-bottom: 20px;
+    }
+  }
+    
